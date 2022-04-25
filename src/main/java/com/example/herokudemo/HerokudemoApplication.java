@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HerokudemoApplication {
     @GetMapping("/")
     public String hello(){
-        return "hello1212 world";
+        return "hello1212q world";
     }
     public static void main(String[] args) {
         SpringApplication.run(HerokudemoApplication.class, args);
